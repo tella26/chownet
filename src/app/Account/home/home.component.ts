@@ -81,7 +81,7 @@ export class HomeComponent implements OnInit {
       
             // Convert the canvas pixels to shape 
             let img = tf.fromPixels(imageData, 1);
-            img = img.reshape([28, 28, 1]);
+            img = img.reshape([28,28,1]);
             img = tf.cast(img, 'float32');
       
             // Make and format the predications
