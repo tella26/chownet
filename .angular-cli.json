@@ -10,6 +10,16 @@
       "assets": [
         "assets",
         "favicon.ico",
+        {
+          "glob": "index.js",
+          "input": "./server/",
+          "output": "./"
+        },
+        {
+          "glob": "package.json",
+          "input": "./server/",
+          "output": "./"
+        },
         "web.config"
       ],
       "index": "index.html",
